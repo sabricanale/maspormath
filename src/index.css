@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.fondoBody{
+    background-color: #F6F1EC; 
+}
+h1{
+    font-family: Pacifico;
+    color: #8899BB;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.claseh1{
+    font-family: Gochi hand;
+    color:#8899BB;
+}
+
+h3{
+    font-family: Gruppo;
+    color: #688E86;
+}
+.navbar {
+    font-family: Gochi hand;
+    background-color: #F6F1EC;   
+    font-size: larger;
+}
+.nav-link {
+    position: relative;
+    color: #8899BB;
+}
+.navegacion {
+    display: flex;
+    justify-content:center;
+}
+
+footer {
+    font-family: Gruppo;
+    background-color: #F6F1EC; 
+    color: #688E86;
+    font-size:larger;
+}
+
+.hipervinculo {
+    text-decoration: none;
+    color:#8899BB;
+}
+
+.imagenFondo {
+    background: linear-gradient(rgba(5, 7, 12, 0.8), rgba(5, 7, 12, 0.2)), url("/public/Images/Carrusel.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 23em; 
+}
+
+.tituloBanner {
+    color:#FFD2F7;
+    text-align: center;
+    font-family: Gochi hand;
+    margin-top: 20px;
+    padding: 100px; 
+}
+      
+.botonAzul {
+    background-color:#8899BB;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 8px;
+    translate: 519px;
+    font-family: Pacifico;
+    color:#FFD2F7;
+    border: #8899BB;
+    font-size:larger;
+    width: 200px;
+}
+
+.textoInfo {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Gruppo;
+    font-size:x-large;
+    color:#688E86;
+}
+
+.botonBeige {
+    background-color: #F6F1EC;
+    border: #F6F1EC;
+    margin: 20px;
+    padding: 10px;
+    font-family: Gochi hand;
+    color: #688E86;
+    font-size:x-large;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#imagenProfes {
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+
 }
